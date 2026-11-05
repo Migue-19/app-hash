@@ -1,0 +1,6 @@
+h1 { margin: 0 0 8px; color: var(--accent); }
+.lead { font-size: 1.1rem; color: #4b5563; margin: 0 0 24px; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+.card h2 { margin-top: 0; font-size: 1.2rem; }
+code { background: var(--accent-soft); padding: 1px 6px; border-radius: 4px; }
+li { margin: 6px 0; }
