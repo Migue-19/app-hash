@@ -1,0 +1,21 @@
+<header class="topbar">
+  <div class="brand">
+    <span class="dot"></span>
+    <strong>{{ title() }}</strong>
+    <span class="badge">{{ strategy() }}</span>
+  </div>
+  <nav>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Inicio</a>
+    <a routerLink="/about" routerLinkActive="active">Acerca de</a>
+    <a routerLink="/contact" routerLinkActive="active">Contacto</a>
+  </nav>
+</header>
+
+<main class="content">
+  <router-outlet />
+</main>
+
+<footer class="urlbar">
+  <span>URL actual:</span>
+  <code>{{ currentUrl() }}</code>
+</footer>
