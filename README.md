@@ -1,4 +1,5 @@
 # app-hash
+<<<<<<< HEAD
 
 Laboratorio Pipelines — Arquitectura de Software (UCEVA).
 Aplicación Angular con **Hash Location Strategy** desplegada en GitHub Pages mediante GitHub Actions.
@@ -24,3 +25,6 @@ npm start        # desarrollo
 npm test         # pruebas unitarias
 npm run build    # build de producción
 ```
+=======
+Taller bajo presión entrega rápida 
+>>>>>>> bf96c1437e442df42837e86e829762e0db823163
